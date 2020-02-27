@@ -57,7 +57,6 @@ def render():
 
     glUseProgram(shaderProgram)
     glDrawArrays(GL_TRIANGLES, 0, 3)
-    square.draw_rect(10, 10, 200, 200)
     glUseProgram(0)
     glutSwapBuffers()
 
